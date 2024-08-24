@@ -1,0 +1,25 @@
+{
+  "name": "06_testowanie_propsow_komponentu",
+  "version": "1.0.0",
+  "description": "![Coders-Lab-1920px-no-background](https://user-images.githubusercontent.com/30623667/104709394-2cabee80-571f-11eb-9518-ea6a794e558e.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run --"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^24.1.1",
+    "vite": "^5.4.1",
+    "vitest": "^2.0.5"
+  }
+}
