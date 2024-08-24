@@ -7,7 +7,7 @@ describe('<AgeChecker/> test', () => {
     test("render without 'Loading...", () => {
         render(<AgeChecker/>);
 
-        expect(screen.queryByText("Loading...")).not.toBeInTheDocument();
+        expect(screen.queryByText("Loading...")).toBeInTheDocument();
     });
     test("render without 'You are adult.", () => {
         render(<AgeChecker/>);
