@@ -1,6 +1,3 @@
-
-
-
 #Title: Unit and Integration Testing for Age Verification Component
 
 #Description:
@@ -18,3 +15,4 @@ Tools and technologies used:
 React Testing Library: For simulating DOM events and validating component output.
 Jest: As the testing framework.
 Mocked data and constants: Ensured dynamic behavior of UI based on input values.
+Playwright for e2e test
